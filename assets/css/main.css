@@ -2064,7 +2064,7 @@ input, select, textarea {
 		border: 0;
 		cursor: pointer;
 		outline: 0;
-		font-weight: 300;
+		font-weight: 500;
 		-moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-ms-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
@@ -2593,7 +2593,7 @@ input, select, textarea {
 			background: #fff;
 			text-align: center;
 			padding: 0 1em 3em 1em;
-			margin: 0 2em 0 0;
+			margin: 0 9em 0 0;
 			white-space: normal;
 			opacity: 1.0;
 			-moz-transition: opacity 0.75s ease-in-out;
