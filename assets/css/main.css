@@ -2055,8 +2055,8 @@ input, select, textarea {
 	.button {
 		position: relative;
 		display: inline-block;
-		background: #df7366;
-		color: #fff;
+		background: #64c7de;
+		color: #000;
 		text-align: center;
 		border-radius: 0.5em;
 		text-decoration: none;
@@ -2077,7 +2077,7 @@ input, select, textarea {
 		button:hover,
 		.button:hover {
 			color: #fff;
-			background: #ef8376;
+			background: #3442a9;
 		}
 
 		input[type="button"].alt,
