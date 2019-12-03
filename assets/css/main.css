@@ -2484,7 +2484,19 @@ input, select, textarea {
 
 			#footer .contact p {
 				text-align: center;
-				margin: 0 0 3em 0;
+				margin: 0 0 1em 0;
+			}
+
+			#footer .contact ul {
+				list-style: none;
+				margin: 0;
+				padding: 0;
+			}
+
+			#footer .contact li {
+				/* display: list-item; */
+				text-align: center;
+				text-decoration: none;
 			}
 
 		#footer .copyright {
