@@ -2479,6 +2479,11 @@ input, select, textarea {
 		}
 
 		#footer .contact {
+			text-align: left;
+			margin-top: 5em;
+		}
+
+		#footer .social {
 			text-align: center;
 		}
 
@@ -2487,16 +2492,14 @@ input, select, textarea {
 				margin: 0 0 1em 0;
 			}
 
-			#footer .contact ul {
+			#footer ul {
 				list-style: none;
 				margin: 0;
 				padding: 0;
 			}
 
-			#footer .contact li {
-				/* display: list-item; */
-				text-align: center;
-				text-decoration: none;
+			#footer li {
+				padding-left: 0;
 			}
 
 		#footer .copyright {
@@ -2790,6 +2793,7 @@ input, select, textarea {
 			.row > section, .row > article {
 				margin-bottom: 2em;
 			}
+
 
 			header > p {
 				font-size: 1.25em;
@@ -3146,5 +3150,3 @@ input, select, textarea {
 					.carousel article .image {
 						margin-bottom: 2em;
 					}
-
-	}
