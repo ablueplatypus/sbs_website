@@ -1816,6 +1816,18 @@ input, select, textarea {
 				width: auto;
 			}
 
+			.partners img {
+				width: 50%;
+			}
+			.chase img {
+				margin: 5em 0em 0em 5em;
+			}
+
+			.about-john {
+				width: 50%;
+				left: 1%;
+			}
+
 /* List */
 
 	ul {
@@ -2539,12 +2551,12 @@ input, select, textarea {
 			.carousel .forward:before, .carousel .backward:before {
 				content: '';
 				display: block;
-				width: 6em;
-				height: 6em;
+				width: 5em;
+				height: 5em;
 				border-radius: 100%;
 				background-color: rgba(72, 57, 73, 0.5);
 				position: absolute;
-				top: 50%;
+				top: 54%;
 				margin-top: -3em;
 				-moz-transition: background-color 0.35s ease-in-out;
 				-webkit-transition: background-color 0.35s ease-in-out;
@@ -2577,7 +2589,7 @@ input, select, textarea {
 			}
 
 			.carousel .forward:after {
-				right: -0.25em;
+				right: -0.7em;
 			}
 
 		.carousel .backward {
@@ -2589,7 +2601,7 @@ input, select, textarea {
 			}
 
 			.carousel .backward:after {
-				left: -0.25em;
+				left: -0.7em;
 				-moz-transform: scaleX(-1);
 				-webkit-transform: scaleX(-1);
 				-ms-transform: scaleX(-1);
@@ -3138,16 +3150,22 @@ input, select, textarea {
 				padding: 0.5em 0 0.5em 0;
 			}
 
-				.carousel .reel {
+			.carousel .reel {
 					padding: 0 0.5em 0 0.5em;
-				}
+			}
 
-				.carousel article {
+			.carousel article {
 					width: 14em;
 					padding-bottom: 2em;
 					margin: 0 0.5em 0 0;
-				}
+			}
 
-					.carousel article .image {
+			.carousel article .image {
 						margin-bottom: 2em;
-					}
+			}
+
+		/* About */
+
+			.about header {
+				margin: 0 0 0 2em;
+			}
