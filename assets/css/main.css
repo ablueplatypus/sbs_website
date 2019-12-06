@@ -169,6 +169,10 @@ input, select, textarea {
 			border-bottom-color: transparent;
 		}
 
+		a.about:hover{
+			color: #3442a9;
+		}
+
 	sub {
 		position: relative;
 		top: 0.5em;
@@ -1832,7 +1836,7 @@ input, select, textarea {
 			}
 
 			.about-john {
-				width: 24%;
+				width: 24rem;
 				left: 1%;
 				border-radius: 10%;
 			}
@@ -2339,6 +2343,14 @@ input, select, textarea {
 		overflow: hidden;
 		font-weight: bold;
 		font-size: 1.3em;
+	}
+
+	#logo {
+		position: absolute;
+    width: 7rem;
+    left: 1em;
+    top: 1em;
+    z-index: 1;
 	}
 
 		#nav > ul {
