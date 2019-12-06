@@ -129,6 +129,13 @@ input, select, textarea {
 		font-size: 2.85em;
 	}
 
+	h2.about{
+		font-size: 2.5em;
+	}
+	h2.team-header {
+		text-align: center;
+	}
+
 	h3 {
 		font-size: 1.25em;
 	}
@@ -1760,14 +1767,14 @@ input, select, textarea {
 		margin-bottom: 0;
 	}
 
-	header {
-		margin: 0 0 1em 0;
+	header.about {
+		margin: 0 0 0em 2em;
 	}
 
 		header > p {
 			display: block;
-			font-size: 1.5em;
-			margin: 1em 0 2em 0;
+			font-size: 1.2em;
+			margin: 0.5em 0 0.4em 0;
 			line-height: 1.5em;
 			text-align: inherit;
 		}
@@ -1825,8 +1832,9 @@ input, select, textarea {
 			}
 
 			.about-john {
-				width: 50%;
+				width: 24%;
 				left: 1%;
+				border-radius: 10%;
 			}
 
 /* List */
@@ -2424,7 +2432,7 @@ input, select, textarea {
 	#banner {
 		background: #fff;
 		text-align: center;
-		padding: 4.5em 0 4.5em 0;
+		padding: 1em 0 0.5em 0;
 		margin-bottom: 0;
 	}
 
@@ -3163,10 +3171,4 @@ input, select, textarea {
 
 			.carousel article .image {
 						margin-bottom: 2em;
-			}
-
-		/* About */
-
-			.about header {
-				margin: 0 0 0 2em;
 			}
