@@ -2198,7 +2198,6 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background-image: url("../../images/emiliano-bar-NYC.jpg");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -2206,6 +2205,28 @@ input, select, textarea {
 		text-align: center;
 		padding: 7.5em 0 2em 0;
 		cursor: default;
+	}
+
+	/* Backgrounds */
+
+	.background-main {
+		background-image: url("../../images/emiliano-bar-NYC.jpg");
+	}
+
+	.background-land {
+		background-image: url("../../images/IMG_6674.jpeg");
+	}
+
+	.background-floor {
+		background-image: url("../../images/FB_126.jpg");
+	}
+
+	.background-snow {
+		background-image: url("../../images/IMG_6674.jpeg");
+	}
+
+	.background-rust {
+		background-image: url("../../images/IMG_8758.jpeg");
 	}
 
 		#header:before {
