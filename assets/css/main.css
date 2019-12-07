@@ -2217,6 +2217,11 @@ input, select, textarea {
 			color: #172060;
 	}
 
+	.background-about {
+		background-image: url("../../images/emiliano-bar-NYC.jpg");
+			color: #172060;
+	}
+
 	.background-land {
 		background-image: url("../../images/IMG_6674.jpeg");
 		color: #fff;
@@ -2228,7 +2233,7 @@ input, select, textarea {
 	}
 
 	.background-snow {
-		background-image: url("../../images/IMG_6674.jpeg");
+		background-image: url("../../images/IMG_6875.JPG");
 		color: #fff;
 	}
 
@@ -2299,6 +2304,10 @@ input, select, textarea {
 
 	body.homepage #header {
 		height: 100vh;
+		min-height: 40em;
+	}
+	body.alt-page #header {
+		height: 80vh;
 		min-height: 40em;
 	}
 
