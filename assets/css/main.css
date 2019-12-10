@@ -482,6 +482,12 @@ input, select, textarea {
 			margin-left: -40px;
 		}
 
+		.row-gallery {
+			margin-top: -75px;
+			margin-left: -25px;
+			margin-bottom: 15px;
+		}
+
 			.row > * {
 				padding: 40px 0 0 40px;
 			}
@@ -1831,7 +1837,7 @@ input, select, textarea {
 			.partners img {
 				width: 50%;
 			}
-			
+
 			/* .chase img {
 				margin: 5em 0em 0em 5em;
 			} */
