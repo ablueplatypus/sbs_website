@@ -291,7 +291,7 @@ input, select, textarea {
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
-		align-items: stretch;
+		align-items: center;
 	}
 
 		.row > * {
@@ -1831,9 +1831,10 @@ input, select, textarea {
 			.partners img {
 				width: 50%;
 			}
-			.chase img {
+			
+			/* .chase img {
 				margin: 5em 0em 0em 5em;
-			}
+			} */
 
 			.about-john {
 				width: 24rem;
@@ -2356,7 +2357,7 @@ input, select, textarea {
 
 	#logo {
 		position: absolute;
-    width: 7rem;
+    width: 10%;
     left: 1em;
     top: 1em;
     z-index: 1;
@@ -3216,3 +3217,14 @@ input, select, textarea {
 			.carousel article .image {
 						margin-bottom: 2em;
 			}
+
+			/* Business Partners */
+
+			/* .logo_banner {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				margin-top: 10px;
+				margin-bottom: 10px;
+				position: relative;
+			} */
