@@ -2230,7 +2230,7 @@ input, select, textarea {
 	}
 
 	.background-land {
-		background-image: url("../../images/IMG_6674.jpeg");
+		background-image: url("../../images/IMG_8128.jpeg");
 		color: #fff;
 	}
 
@@ -2364,8 +2364,8 @@ input, select, textarea {
 	#logo {
 		position: absolute;
     width: 10%;
-    left: 1em;
-    top: 1em;
+    left: 2em;
+    top: 2em;
     z-index: 1;
 	}
 
@@ -2673,6 +2673,7 @@ input, select, textarea {
 			}
 
 		.carousel .reel {
+			display: inline-flex;
 			white-space: nowrap;
 			position: relative;
 			-webkit-overflow-scrolling: touch;
@@ -2685,7 +2686,7 @@ input, select, textarea {
 			background: #fff;
 			text-align: center;
 			padding: 0 1em 3em 1em;
-			margin: 0 9em 0 0;
+			margin: 0 6em 0 0;
 			white-space: normal;
 			opacity: 1.0;
 			-moz-transition: opacity 0.75s ease-in-out;
