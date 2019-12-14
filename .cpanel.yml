@@ -3,9 +3,9 @@ deployment:
     - export DEPLOYPATH=/home/spectmdh/public_html/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
-    /bin/cp -R images $DEPLOYPATH
-    /bin/cp about.html $DEPLOYPATH
-    /bin/cp floorcoating.html $DEPLOYPATH
-    /bin/cp landscaping.html $DEPLOYPATH
-    /bin/cp rust.html $DEPLOYPATH
-    /bin/cp snowremoval.html $DEPLOYPATH
+    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp about.html $DEPLOYPATH
+    - /bin/cp floorcoating.html $DEPLOYPATH
+    - /bin/cp landscaping.html $DEPLOYPATH
+    - /bin/cp rust.html $DEPLOYPATH
+    - /bin/cp snowremoval.html $DEPLOYPATH
