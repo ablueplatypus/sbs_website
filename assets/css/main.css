@@ -1855,7 +1855,13 @@ input, select, textarea {
 
 			.about-john {
 				width: 24rem;
-				left: 1%;
+				left: 25%;
+				border-radius: 10%;
+			}
+
+			.about-john-jr {
+				width: 25.5rem;
+				left: 28%;
 				border-radius: 10%;
 			}
 
