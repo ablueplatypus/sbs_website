@@ -291,7 +291,16 @@ input, select, textarea {
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
+		align-items: baseline;
+	}
+
+	.partners {
+		display: inline-flex;
 		align-items: center;
+	}
+
+	.business-partners {
+		width: 50%;
 	}
 
 		.row > * {
@@ -1836,9 +1845,9 @@ input, select, textarea {
 				width: auto;
 			}
 
-			.partners img {
+			/* .partners img {
 				width: 50%;
-			}
+			} */
 
 			/* .chase img {
 				margin: 5em 0em 0em 5em;
