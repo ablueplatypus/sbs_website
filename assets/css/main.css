@@ -2904,6 +2904,9 @@ input, select, textarea {
 				margin: 0 0 1em 0;
 			}
 
+			.empire {
+				width: 100%;
+			}
 		/* Actions */
 
 			form ul.actions {
@@ -3252,3 +3255,4 @@ input, select, textarea {
 				margin-bottom: 10px;
 				position: relative;
 			} */
+	} /* end of media bracket */
