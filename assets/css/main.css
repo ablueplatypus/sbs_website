@@ -208,7 +208,7 @@ input, select, textarea {
 		display: block;
 		border: 0;
 		top: 4.5em;
-		margin-bottom: 9em;
+		margin-bottom: 6em;
 		height: 6px;
 		border-top: solid 1px rgba(128, 128, 128, 0.2);
 		border-bottom: solid 1px rgba(128, 128, 128, 0.2);
@@ -483,9 +483,7 @@ input, select, textarea {
 		}
 
 		.row-gallery {
-			margin-top: -75px;
-			margin-left: -25px;
-			margin-bottom: 15px;
+			margin: -20px 0px 20px 20px;
 		}
 
 			.row > * {
@@ -533,6 +531,10 @@ input, select, textarea {
 				.row.gtr-200.gtr-uniform > * {
 					padding-top: 80px;
 				}
+
+		.row-m-left {
+			margin-left: 0.5em'
+		}
 
 		@media screen and (max-width: 1680px) {
 
