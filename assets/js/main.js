@@ -12,7 +12,7 @@
 
 			// Carousels
 				carousels: {
-					speed: 4,
+					speed: 5,
 					fadeIn: true,
 					fadeDelay: 250
 				},
@@ -186,11 +186,11 @@
 					if (browser.mobile) {
 
 						$reel
-							.css('overflow-y', 'hidden')
+							.css('overflow-y', 'visible')
 							.css('overflow-x', 'scroll')
 							.scrollLeft(0);
-						$forward.hide();
-						$backward.hide();
+						$forward.show();
+						$backward.show();
 
 					}
 					else {
