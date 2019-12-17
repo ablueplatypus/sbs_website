@@ -1,0 +1,12 @@
+{
+  "short_name": "SBS",
+  "name": "Specialty Building Solutions",
+  "icons": [
+    {
+      "src": "images/sbs logo.png",
+      "type": "image/png",
+      "sizes": "165 x 132"
+    },
+  ],
+  "background_color": "#f0f4f4",
+}
