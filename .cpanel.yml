@@ -1,5 +1,6 @@
 deployment:
   tasks:
+    - export DEPLOYPATH=/home/sbssifpo/public_html/
     - export DEPLOYPATH=/home/spectmdh/public_html/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
