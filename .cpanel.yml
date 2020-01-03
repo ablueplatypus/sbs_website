@@ -5,11 +5,4 @@ deployment:
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
     - /bin/cp -R images $DEPLOYPATH
-    - /bin/cp about.html $DEPLOYPATH
-    - /bin/cp floorcoating.html $DEPLOYPATH
-    - /bin/cp landscaping.html $DEPLOYPATH
-    - /bin/cp rust.html $DEPLOYPATH
-    - /bin/cp snowremoval.html $DEPLOYPATH
-    - /bin/cp mainfest.json $DEPLOYPATH
-    - /bin/cp .htaccess $DEPLOYPATH
-    - /bin/cp 404.html $DEPLOYPATH
+    - /bin/cp -R app $DEPLOYPATH
