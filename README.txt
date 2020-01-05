@@ -2,28 +2,13 @@ Helios by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
+This is a professional website design by Matthew Doering. A basic template was provided by HTML5 UP.
+All images were taken and owned by Specialty Building Solutions. Website is maintained and manage by Matthew Doering.
+Website is static and informational currently no need for a full backend with a database.
 
-This is Helios, a brand new site template for HTML5 UP. It's clean, modern, and designed
-to take advantage of larger (well, wider) displays while still being capable of gracefully
-scaling down to fit all manner of smaller ones.
-
-Demo images* courtesy of Michael Domaradzki, an awesome photographer I met over at
-deviantART. Check out his portfolio here:
-
-http://md.photomerchant.net/
-
-(* = Not included! Only meant for use with my own on-site demo, so please do NOT download
-and/or use any of Michaels's work without his explicit permission!)
-
-AJ
-aj@lkn.io | @ajlkn
 
 
 Credits:
-
-	Demo Images:
-		Michael Domaradzki (md.photomerchant.net)
-
 	Icons:
 		Font Awesome (fontawesome.io)
 

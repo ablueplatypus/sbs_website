@@ -91,7 +91,7 @@ input, select, textarea {
 		font-weight: 300;
 	}
 
-		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+		/* body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
 			-webkit-animation: none !important;
 			-ms-animation: none !important;
@@ -100,7 +100,7 @@ input, select, textarea {
 			-webkit-transition: none !important;
 			-ms-transition: none !important;
 			transition: none !important;
-		}
+		} */
 
 	input, textarea, select {
 		font-size: 15pt;
@@ -2348,7 +2348,7 @@ input, select, textarea {
 		min-height: 40em;
 	}
 
-		body.homepage #header:after {
+		/* body.homepage #header:after {
 			content: '';
 			background: #1C0920;
 			display: block;
@@ -2370,7 +2370,7 @@ input, select, textarea {
 
 	body.homepage.is-preload #header:after {
 		opacity: 1;
-	}
+	} */
 
 /* Nav */
 
@@ -2394,6 +2394,13 @@ input, select, textarea {
     top: 2em;
     z-index: 1;
 	}
+
+	@media screen and (max-width: 500px) {
+		#logo {
+			width: 4em;
+		}
+	}
+
 
 		#nav > ul {
 			line-height: 0px;
