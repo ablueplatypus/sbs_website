@@ -2395,6 +2395,13 @@ input, select, textarea {
     z-index: 1;
 	}
 
+	@media screen and (max-width: 500px) {
+		#logo {
+			width: 4em;
+		}
+	}
+
+
 		#nav > ul {
 			line-height: 0px;
 			position: relative;
