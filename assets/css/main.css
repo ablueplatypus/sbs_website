@@ -1840,9 +1840,9 @@ input, select, textarea {
 			width: 100%;
 		}
 
-		.image.spec {
+		/* .image.spec {
 			width: 50%;
-		}
+		} */
 
 		.image.featured {
 			display: block;
@@ -3283,6 +3283,14 @@ input, select, textarea {
 
 	/* SPECIALTY CSS */
 
+	#prob-list {
+		display: flex;
+		justify-content: space-between;
+	}
+	.prob-img {
+		margin-left: 20px;
+	}
+
 	.caption {
 		text-align: left;
 	}
@@ -3308,6 +3316,77 @@ input, select, textarea {
 	.videoWrapper {
 		text-align: center;
 }
+
+	.center-text {
+		text-align: center;
+	}
+
+	.problem-list {
+		margin-right: 1.5em;
+	}
+	.margin-left {
+		margin-left: 1em;
+	}
+
+	@media screen and (max-width: 1185px) {
+		.image.spec {
+			width: 100%;
+		}
+	}
+
+	@media screen and (max-width: 810px) {
+		.image.spec {
+			width: 60%;
+		}
+
+	}
+
+	@media screen and (max-width: 700px) {
+		#prob-list {
+			width: 100%;
+    	flex-wrap: wrap;
+    	box-sizing: border-box;
+    	align-items: stretch;
+		}
+	}
+
+	@media screen and (max-width: 610px) {
+		iframe {
+			width: 100%
+		}
+
+	}
+
+
+	/* .aging-pipe {
+		right: 54em;
+	} */
+
+/*
+@media screen and (max-width: 500px) {
+	.aging-pipe {
+		right: 5em;
+		margin-top: 1em;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.aging-pipe {
+		right: 0em;
+		margin-top: 1em;
+	}
+} */
+/* @media only screen (max-width: 1024px) {
+	.aging-pipe {
+		margin-top: 1em;
+	}
+
+	.image.spec{
+		width: 100%
+	}
+
+} */
+
 
 			/* Business Partners */
 
