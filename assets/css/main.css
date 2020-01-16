@@ -3286,6 +3286,7 @@ input, select, textarea {
 	#prob-list {
 		display: flex;
 		justify-content: space-between;
+		margin-top: 12px;
 	}
 	.prob-img {
 		margin-left: 20px;
