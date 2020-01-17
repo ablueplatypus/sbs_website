@@ -15,3 +15,101 @@
 	body.homepage.is-preload #header:after {
 		opacity: 0;
 	}
+
+
+
+		/* SPECIALTY CSS */
+
+		#prob-list {
+			display: flex;
+			justify-content: center;
+			margin-top: 12px;
+			padding: 1em 1em 1em 1em;
+		}
+		.prob-img {
+			margin-left: 20px;
+		}
+
+		.caption {
+			text-align: left;
+		}
+
+		.pipes {
+			display: flex;
+			justify-content: center;
+		}
+
+	.pipe-header.h-sm {
+		font-size: 1.75em;
+	}
+
+		.pipe-header {
+			margin-left: 10px;
+	    font-size: 2.5em;
+			color: #3d2f96;
+		}
+
+		.before-after-sec {
+			margin-bottom: 0em;
+		}
+
+		.pipe {
+			padding-top: 2.5em;
+		}
+
+		.videoWrapper {
+			text-align: center;
+	}
+
+		.center-text {
+			text-align: center;
+		}
+
+		.problem-list {
+			margin-left: 4em;
+		}
+		.margin-left {
+			margin-left: 1em;
+		}
+
+		.italic-sm {
+			font-size: 0.8rem;
+			font-style: italic;
+		}
+
+		@media screen and (max-width: 1185px) {
+			.image.spec {
+				width: 100%;
+			}
+		}
+
+		@media screen and (max-width: 810px) {
+			.image.spec {
+				width: 60%;
+			}
+
+		}
+
+		@media screen and (max-width: 700px) {
+			#prob-list {
+				align-items: stretch;
+				box-sizing: border-box;
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: flex-start;
+				padding: 0;
+				width: 100%;
+
+			}
+
+			.problem-list {
+				margin-left: 0;
+			}
+		}
+
+		@media screen and (max-width: 610px) {
+			iframe {
+				width: 100%
+			}
+
+		}
