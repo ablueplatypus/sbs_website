@@ -5,3 +5,5 @@ deployment:
     - /bin/cp -R assets $DEPLOYPATH
     - /bin/cp -R images $DEPLOYPATH
     - /bin/cp -R app $DEPLOYPATH
+    - /bin/cp .htaccess $DEPLOYPATH
+    - /bin/cp manifest.json $DEPLOYPATH
