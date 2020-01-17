@@ -2291,7 +2291,7 @@ input, select, textarea {
 
 	.background-specialty {
 		background-image: url("../../images/pipes.jpg");
-		color: #fff;
+		color: red;
 	}
 
 		#header:before {
@@ -3308,11 +3308,11 @@ input, select, textarea {
 		font-size: 1.75em;
 	}
 
-		.pipe-header {
+		/* .pipe-header {
 			margin-left: 10px;
 	    font-size: 2.5em;
 			color: #3d2f96;
-		}
+		} */
 
 		.before-after-sec {
 			margin-bottom: 0em;
