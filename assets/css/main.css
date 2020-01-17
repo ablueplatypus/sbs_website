@@ -557,6 +557,10 @@ input, select, textarea {
 			margin-left: 0.5em;
 		}
 
+		.row.gtr-spec {
+			margin-left: 20px;
+		}
+
 		@media screen and (max-width: 1680px) {
 
 			.row {
@@ -1836,6 +1840,10 @@ input, select, textarea {
 			width: 100%;
 		}
 
+		/* .image.spec {
+			width: 50%;
+		} */
+
 		.image.featured {
 			display: block;
 			width: 100%;
@@ -2250,17 +2258,17 @@ input, select, textarea {
 	/* Backgrounds */
 
 	.background-main {
-		background-image: url("../../images/emiliano-bar-NYC.jpg");
+		background-image: url("../../images/emiliano-bar-nyc-web.jpg");
 			color: #172060;
 	}
 
 	.background-about {
-		background-image: url("../../images/emiliano-bar-NYC.jpg");
+		background-image: url("../../images/emiliano-bar-nyc-web.jpg");
 			color: #172060;
 	}
 
 	.background-land {
-		background-image: url("../../images/IMG_8128.jpeg");
+		background-image: url("../../images/land_8128.jpg");
 		color: #fff;
 	}
 
@@ -2270,12 +2278,17 @@ input, select, textarea {
 	}
 
 	.background-snow {
-		background-image: url("../../images/IMG_6875.JPG");
+		background-image: url("../../images/snow_6875.JPG");
 		color: #fff;
 	}
 
 	.background-rust {
-		background-image: url("../../images/IMG_8758.jpeg");
+		background-image: url("../../images/rust_8758.jpg");
+		color: #fff;
+	}
+
+	.background-specialty {
+		background-image: url("../../images/pipes.jpg");
 		color: #fff;
 	}
 
@@ -2385,6 +2398,10 @@ input, select, textarea {
 		overflow: hidden;
 		font-weight: bold;
 		font-size: 1.3em;
+	}
+
+	#nav a:hover {
+		color: #3442a9;
 	}
 
 	#logo {
@@ -3264,7 +3281,131 @@ input, select, textarea {
 
 }
 
+	/* SPECIALTY CSS */
 
+	#prob-list {
+		display: flex;
+		justify-content: center;
+		margin-top: 12px;
+		padding: 1em 1em 1em 1em;
+	}
+	.prob-img {
+		margin-left: 20px;
+	}
+
+	.caption {
+		text-align: left;
+	}
+
+	.pipes {
+		display: flex;
+		justify-content: center;
+	}
+
+.pipe-header.h-sm {
+	font-size: 1.75em;
+}
+
+	.pipe-header {
+		margin-left: 10px;
+    font-size: 2.5em;
+		color: #3d2f96;
+	}
+
+	.before-after-sec {
+		margin-bottom: 0em;
+	}
+
+	.pipe {
+		padding-top: 2.5em;
+	}
+
+	.videoWrapper {
+		text-align: center;
+}
+
+	.center-text {
+		text-align: center;
+	}
+
+	.problem-list {
+		margin-left: 4em;
+	}
+	.margin-left {
+		margin-left: 1em;
+	}
+
+	.italic-sm {
+		font-size: 0.8rem;
+		font-style: italic;
+	}
+
+	@media screen and (max-width: 1185px) {
+		.image.spec {
+			width: 100%;
+		}
+	}
+
+	@media screen and (max-width: 810px) {
+		.image.spec {
+			width: 60%;
+		}
+
+	}
+
+	@media screen and (max-width: 700px) {
+		#prob-list {
+			align-items: stretch;
+			box-sizing: border-box;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: flex-start;
+			padding: 0;
+			width: 100%;
+
+		}
+
+		.problem-list {
+			margin-left: 0;
+		}
+	}
+
+	@media screen and (max-width: 610px) {
+		iframe {
+			width: 100%
+		}
+
+	}
+
+
+	/* .aging-pipe {
+		right: 54em;
+	} */
+
+/*
+@media screen and (max-width: 500px) {
+	.aging-pipe {
+		right: 5em;
+		margin-top: 1em;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.aging-pipe {
+		right: 0em;
+		margin-top: 1em;
+	}
+} */
+/* @media only screen (max-width: 1024px) {
+	.aging-pipe {
+		margin-top: 1em;
+	}
+
+	.image.spec{
+		width: 100%
+	}
+
+} */
 
 
 			/* Business Partners */
