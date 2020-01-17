@@ -3,7 +3,7 @@ pipeList.innerHTML += `
 <div class="col-10-mobile prob-img"> <img class="image aging-pipe" src="../images/aging_pipe.jpg"/>
 </div>
 
-<div class="problem-list margin-left">
+<div class="problem-list">
   <ul class="col-10-mobile off-2-mobile">
       <li class="list-building">
         Corrosion

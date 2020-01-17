@@ -3285,8 +3285,9 @@ input, select, textarea {
 
 	#prob-list {
 		display: flex;
-		justify-content: space-between;
+		justify-content: center;
 		margin-top: 12px;
+		padding: 1em 1em 1em 1em;
 	}
 	.prob-img {
 		margin-left: 20px;
@@ -3300,6 +3301,11 @@ input, select, textarea {
 		display: flex;
 		justify-content: center;
 	}
+
+.pipe-header.h-sm {
+	font-size: 1.75em;
+}
+
 	.pipe-header {
 		margin-left: 10px;
     font-size: 2.5em;
@@ -3323,10 +3329,15 @@ input, select, textarea {
 	}
 
 	.problem-list {
-		margin-right: 1.5em;
+		margin-left: 4em;
 	}
 	.margin-left {
 		margin-left: 1em;
+	}
+
+	.italic-sm {
+		font-size: 0.8rem;
+		font-style: italic;
 	}
 
 	@media screen and (max-width: 1185px) {
@@ -3344,10 +3355,18 @@ input, select, textarea {
 
 	@media screen and (max-width: 700px) {
 		#prob-list {
+			align-items: stretch;
+			box-sizing: border-box;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: flex-start;
+			padding: 0;
 			width: 100%;
-    	flex-wrap: wrap;
-    	box-sizing: border-box;
-    	align-items: stretch;
+
+		}
+
+		.problem-list {
+			margin-left: 0;
 		}
 	}
 
