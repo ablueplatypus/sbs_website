@@ -7,13 +7,13 @@ deployment:
     # - /bin/cp -R app $DEPLOYPATH
     # - /bin/cp .htaccess $DEPLOYPATH
     # - /bin/cp manifest.json $DEPLOYPATH
-    - export DEPLOYPATH=/home/spectmdh/sbs.services/
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp -R assets $DEPLOYPATH
-    - /bin/cp -R images $DEPLOYPATH
-    - /bin/cp -R app $DEPLOYPATH
-    - /bin/cp .htaccess $DEPLOYPATH
-    - /bin/cp manifest.json $DEPLOYPATH
+    # - export DEPLOYPATH=/home/spectmdh/sbs.services/
+    # - /bin/cp index.html $DEPLOYPATH
+    # - /bin/cp -R assets $DEPLOYPATH
+    # - /bin/cp -R images $DEPLOYPATH
+    # - /bin/cp -R app $DEPLOYPATH
+    # - /bin/cp .htaccess $DEPLOYPATH
+    # - /bin/cp manifest.json $DEPLOYPATH
     - export DEPLOYPATH=/home/spectmdh/specialtybuildingsolutions.com/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
