@@ -3319,9 +3319,15 @@ input, select, textarea {
 		}
 
 		.pipe-header {
-			margin-left: 10px;
-	    font-size: 2.5em;
 			color: #3d2f96;
+	    font-size: 2.5em;
+			margin-left: 10px;
+
+		}
+
+		.benefits {
+			position: relative;
+			top: 2em;
 		}
 
 		.before-after-sec {
@@ -3373,12 +3379,19 @@ input, select, textarea {
 			display: flex;
     	flex-wrap: wrap;
     	box-sizing: border-box;
-    	align-items: end;
+    	align-items: center;
 		}
 
 		@media screen and (max-width: 1830px) {
 			.videoWrapper {
 				padding: 0;
+			}
+		}
+
+		@media screen and (max-device-width: 1427px) {
+			.benefits {
+					position: unset;
+		    	top: 0em;
 			}
 		}
 
